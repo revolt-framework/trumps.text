@@ -1,0 +1,82 @@
+//
+// TRUMPS.TEXT
+//
+
+
+
+// Predefine the variables below to alter and enable specific features.
+
+$revo-text-namespace:    $revo-trumps-namespace !default;
+
+$revo-text-normal:       normal !default;
+$revo-text-bold:         bold !default;
+
+
+
+// Alignment
+
+.#{$revo-text-namespace}text-left,
+%#{$revo-text-namespace}text-left {
+    text-align: left !important;
+}
+
+.#{$revo-text-namespace}text-right,
+%#{$revo-text-namespace}text-right {
+    text-align: right !important;
+}
+
+.#{$revo-text-namespace}text-center,
+%#{$revo-text-namespace}text-center {
+    text-align: center !important;
+}
+
+
+
+// Transformation
+
+.#{$revo-text-namespace}text-lowercase,
+%#{$revo-text-namespace}text-lowercase {
+    text-transform: lowercase !important;
+}
+
+.#{$revo-text-namespace}text-uppercase,
+%#{$revo-text-namespace}text-uppercase {
+    text-transform: uppercase !important;
+}
+
+.#{$revo-text-namespace}text-capitalize,
+%#{$revo-text-namespace}text-capitalize {
+    text-transform: capitalize !important;
+}
+
+
+
+// Weight
+
+.#{$revo-text-namespace}text-normal,
+%#{$revo-text-namespace}text-normal {
+    font-weight: $revo-text-normal !important;
+}
+
+.#{$revo-text-namespace}text-bold,
+%#{$revo-text-namespace}text-bold {
+    font-weight: $revo-text-bold !important;
+}
+
+
+
+// Style
+
+.#{$revo-text-namespace}text-italic,
+%#{$revo-text-namespace}text-italic {
+    font-style: italic !important;
+}
+
+
+
+// Wrapping
+
+.#{$revo-text-namespace}text-nowrap,
+%#{$revo-text-namespace}text-nowrap {
+    white-space: nowrap !important;
+}

@@ -1,0 +1,24 @@
+{
+  "name": "revolt.trumps.text",
+  "homepage": "https://github.com/revolt-framework/trumps.text",
+  "authors": [
+    {
+      "name": "Ruven Pelka",
+      "email": "ruven.pelka@gmail.com",
+      "homepage": "http://ruvenpelka.com"
+    }
+  ],
+  "description": "Revolt framework's text utilities.",
+  "main": "_trumps.text.scss",
+  "keywords": [
+    "revolt",
+    "oocss",
+    "css",
+    "text",
+    "font"
+  ],
+  "dependencies": {
+    "revolt.settings.defaults": "0.x.x"
+  },
+  "license": "MIT"
+}
